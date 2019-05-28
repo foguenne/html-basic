@@ -1,0 +1,69 @@
+@keyframes monAnimation{
+    
+    0%{
+      
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateY(25px) rotate(360deg);
+        
+    }
+    100%{
+        
+        transform: transformY(0px) ;
+    }
+}
+
+body{
+
+    background-image: linear-gradient(#EBEBEB, black);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    
+    
+
+}
+
+img{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10%;
+    
+}
+
+h1 {
+    
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    padding-top: 20px;
+}
+
+a{
+    background-color: crimson;
+    border-radius: 10px;
+    padding: 30px;
+    text-transform: uppercase;
+    font-family: 'Permanent Marler', cursive;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top:5%;
+    left:5%;
+}
+
+a:hover{
+    color: crimson;
+    background-color: white;
+}
+
+h1:hover{
+    
+    animation: monAnimation 8s;
+}
+
